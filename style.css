@@ -9,8 +9,8 @@
 }
 .header {
     background-color: #1a1a1a;
-padding-top: 36px;
-padding-bottom: 200px;
+    padding-top: 36px;
+    padding-bottom: 200px;
 }
 .navigation {
     display: flex;
@@ -48,7 +48,7 @@ padding-bottom: 200px;
     margin-bottom: 80px;
     position: relative;
 }
-.header-subtitle-text {
+.headr-sabtitle-text {
     display: inline-block;
     border-left: 1px solid #8c8c8c;
     padding: 8px 0 8px 20px;
@@ -59,7 +59,7 @@ padding-bottom: 200px;
     letter-spacing: 1.5px;
     margin-bottom: 13px;
 }
-.header-title-text {
+.headr-title-text {
     font-size: 90px;
     font-weight: bold;
     color: #fff;
@@ -82,4 +82,96 @@ padding-bottom: 200px;
     color: #1a1a1a;
     font-weight: bold;
     border-radius: 6px;
+}
+.header-info-block {
+    display: flex;
+    justify-content: space-between;
+}
+.card-info {
+    max-width: 361px;
+}
+.card-about {
+    max-width: 539px;
+}
+.card-info-img {
+    display: flex;
+}
+.info-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #fff;
+    margin-bottom: 2px;
+}
+.info-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.about-text-wrapper {
+    margin-bottom: 64px;
+}
+.about-subtitle-text {
+    display: inline-block;
+    border-left: 1px solid #fff ;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height:25px ;
+    letter-spacing: 1.73px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.about-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.32px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.audio-block {
+    background-color:#242424 ;
+    display: flex;
+    margin-bottom:15px ;
+}
+.audio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    position: relative;
+    padding: 0 35px;
+}
+.play-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background: #1c68f0;
+}
+.about-title {
+    font-family: Pappins;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #fff;
+    text-align: center;
+    margin-top: 2px;
+}
+.about-subtitle {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    text-align: center;
 }
